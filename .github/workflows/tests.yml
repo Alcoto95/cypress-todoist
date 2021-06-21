@@ -2,6 +2,11 @@ name: Cypress Tests
 
 on: pull_request
 
+env:
+  CYPRESS_TODOIST_BASE_URL: ${{ secrets.CYPRESS_TODOIST_BASE_URL }}
+  CYPRESS_TODOIST_EMAIL: ${{ secrets.CYPRESS_TODOIST_EMAIL }}
+  CYPRESS_TODOIST_PASSWORD: ${{ secrets.CYPRESS_TODOIST_PASSWORD }}
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
