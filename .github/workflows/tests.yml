@@ -13,5 +13,5 @@ jobs:
         with:
           node-version: '14'
       - run: |
-          npm ci
+          npm i
           npm run cypress:run
