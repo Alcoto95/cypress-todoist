@@ -19,3 +19,7 @@ The following environment variables are needed in your System Environment Variab
 - **CYPRESS_TODOIST_PASSWORD**
 
 **NOTE:** The `CYPRESS_` prefix is needed as if it is not included in the name of the environment variable, Cypress will not recognize it during execution time.
+
+## Github Actions
+
+A github action is currently being used for executing the tests on every pull request. The Action can be found under `.github/workflows/`
