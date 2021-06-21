@@ -11,6 +11,9 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress_todoist/github-action@v2
-        with:
-          test: npm run cypress:run
+        uses: actions/setup-node@v2
+          with:
+            node-version: '14'
+        run: |
+            npm i
+            npm run cypress:run
