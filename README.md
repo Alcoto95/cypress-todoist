@@ -18,7 +18,7 @@ Run `npm run cypress:run` and it will run all the available tests.
 
 ## Environment variables
 
-The following environment variables are needed in your System Environment Variables (.profile file in case of Mac OS), in order for the execution to work:
+The following environment variables are needed in your System Environment Variables (**.profile** file in case of Mac OS), in order for the execution to work:
 
 - **CYPRESS_TODOIST_BASE_URL**
 - **CYPRESS_TODOIST_EMAIL**
@@ -28,4 +28,6 @@ The following environment variables are needed in your System Environment Variab
 
 ## Github Actions
 
-A github action is currently being used for executing the tests on every pull request. The Action can be found under `.github/workflows/`
+A github action is currently being used for executing the tests on every pull request. The Action can be found under `.github/workflows/tests.yml`.
+
+Also, the three Environment Variables mentioned above are defined under the repositoryu secrets, inside the `todoist_env` Environment.
