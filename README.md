@@ -8,7 +8,13 @@ Simply run `npm i` based on the root of the project
 
 ## Run tests
 
+### Running tests using the Cypress interactive UI:
+
 Run `npm run cypress:open` to open the cypress UI runner and click on the test file that you whish to run.
+
+### Running the tests headless:
+
+Run `npm run cypress:run` and it will run all the available tests.
 
 ## Environment variables
 
