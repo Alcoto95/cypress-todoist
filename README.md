@@ -31,3 +31,11 @@ The following environment variables are needed in your System Environment Variab
 A github action is currently being used for executing the tests on every pull request. The Action can be found under `.github/workflows/tests.yml`.
 
 Also, the three Environment Variables mentioned above are defined under the repository secrets, inside the `todoist_env` Environment.
+
+### Currently running on the following Node version and OS:
+
+- **Node V14**
+- **ubuntu-latest**
+- **windows-latest**
+- **macOs-latest**
+
