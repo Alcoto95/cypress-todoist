@@ -17,7 +17,7 @@ jobs:
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
-        os: [ubunto-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest, windows-latest, macOs-latest]
     environment: todoist_env
 
     steps:
